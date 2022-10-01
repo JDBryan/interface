@@ -28,30 +28,16 @@ def sum(number_list):
 var_a = 10
 
 list_a = [3, 4, 10, 7, 6, 8]
+list_b = [1, 1, 1, 1, 1]
 
-print(sum(list_a))
+print(sum(list_b))
 
-def numbersize(num):
-    if num < 11:
-        print("small")
-    elif num < 21:
-        print ("medium")
-    else:
-        print("Big")
+def add(number_list):
+    total = 0
+    for _ in number_list:
+        total = total + 1
+    return total
 
+print(add(list_a))
 
-numbersize(15)
-numbersize(3)
-numbersize(39)
-
-def fiftyorsixty(num):
-    if num <= 60 and num >= 50:
-        print("yes")
-    else:
-        print("NO")
-    
-fiftyorsixty(50)
-fiftyorsixty(60)
-fiftyorsixty(57)
-fiftyorsixty(28)
-fiftyorsixty(9000)
+        
