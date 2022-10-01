@@ -19,9 +19,15 @@ def isTwoOrThree(num):
     else:
         print("Number is not 2 or 3 :(")
 
+def sum(number_list):
+    total = 0
+    for number in number_list:
+        total = total + number
+    return total
 
-isTwoOrThree(addition(1, 1, 1))
-isTwoOrThree(2)
-isTwoOrThree(4)
+var_a = 10
 
+list_a = [3, 4, 10, 7, 6, 8]
+
+print(sum(list_a))
 
