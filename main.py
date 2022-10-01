@@ -25,3 +25,27 @@ isTwoOrThree(2)
 isTwoOrThree(4)
 
 
+def numbersize(num):
+    if num < 11:
+        print("small")
+    elif num < 21:
+        print ("medium")
+    else:
+        print("Big")
+
+
+numbersize(15)
+numbersize(3)
+numbersize(39)
+
+def fiftyorsixty(num):
+    if num <= 60 and num >= 50:
+        print("yes")
+    else:
+        print("NO")
+    
+fiftyorsixty(50)
+fiftyorsixty(60)
+fiftyorsixty(57)
+fiftyorsixty(28)
+fiftyorsixty(9000)
